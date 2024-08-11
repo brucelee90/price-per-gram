@@ -99,7 +99,7 @@ function SelectField(props: Props) {
 
   return (
     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-      <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow  bg-gray-800 border-gray-700 ">
+      <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow  bg-gray-800 dark:bg-gray-800 border-gray-700 ">
         <div>
           <div className="block mb-2 text-sm font-medium text-gray-900 text-white text-lg mb-5">
             The current gold price is at:
